@@ -1,0 +1,649 @@
+
+
+.container01 {
+   background-image: url(/imagens/homeWebb/BackgroundImage1.jpg);
+
+   .containerHeader {
+      display: flex;
+      align-items: center;
+         .titleHeader {
+            font-size: 2.5rem;
+         }
+         .subtitleHeader {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+         }
+      }
+
+   .titleContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 15%;
+
+      .titleWeb {
+         font-size: 4rem;
+      }
+
+      .subtitleWeb {
+         font-size: 2rem;
+      }
+
+      
+      .arrowDown {
+         display: inline-block;
+         width: 200px;
+         margin-top: 2rem;
+      }
+   }
+
+}
+
+.container02 {
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   .containerRightContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titleTextRight {
+         font-size: 2.5rem;
+      }
+
+   }
+}
+
+.container03 {
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+   
+   .containerLeftContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titleTextLeft {
+         font-size: 2.5rem;
+      }
+      
+
+   }
+}
+
+
+.container04 {
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   .containerRightContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titleTextRight {
+         font-size: 2.5rem;
+      }
+      
+
+   }
+}
+
+
+.container05 {
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+   
+   .containerLeftContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titleTextLeft {
+         font-size: 2.5rem;
+      }
+      
+
+   }
+}
+
+// @media (max-width:2650px) {
+
+//    .container01 {
+      
+//    .containerHeader {
+//       .titleHeader {
+//          font-size: 4rem;
+//       }
+//       .subtitleHeader {
+//          margin-top: 0.5rem;
+//          font-size: 2rem;
+//       }
+//    }
+//       .titleContent {
+//          padding-top: 12%;
+
+//          .titleWeb {
+//             font-size: 6rem;
+//          }
+   
+//          .subtitleWeb {
+//             font-size: 4rem;
+//          }
+//          .arrowDown {
+//             width: 350px;
+//          }
+//       }
+      
+//    }
+
+//    .container02,
+//    .container04 {
+
+//       .containerRightContent {
+   
+//          .titleTextRight {
+//             font-size: 4rem;
+//          }
+
+//          .subtitleTextRight {
+//             font-size: 3rem;
+//          }
+//       }
+//    }
+   
+//    .container03,
+//    .container05 {
+      
+//       .containerLeftContent {
+
+//          .titleTextLeft {
+//             font-size: 4rem;
+//          }
+         
+//          .subtitleTextLeft {
+//             font-size: 3rem;
+//          }
+   
+//       }
+//    }
+
+
+
+// }
+
+// @media (max-width:2060px) {
+   
+//    .container02,
+//    .container04 {
+
+//       .containerRightContent {
+   
+//          .titleTextRight {
+//             font-size: 3.5rem;
+//          }
+
+//          .subtitleTextRight {
+//             font-size: 2.5rem;
+//          }
+//       }
+//    }
+   
+//    .container03,
+//    .container05 {
+      
+//       .containerLeftContent {
+
+//          .titleTextLeft {
+//             font-size: 3.5rem;
+//          }
+         
+//          .subtitleTextLeft {
+//             font-size: 2.5rem;
+//          }
+   
+//       }
+//    }
+// }
+
+// @media (max-width:1820px) {
+
+//    .container01 {
+
+//          .titleContent {
+//             padding-top: 16%;
+
+//          }
+//    }
+
+//    .container02,
+//    .container04 {
+
+//       .containerRightContent {
+   
+//          .titleTextRight {
+//             font-size: 3rem;
+//          }
+
+//          .subtitleTextRight {
+//             font-size: 2rem;
+//          }
+//       }
+//    }
+   
+//    .container03,
+//    .container05 {
+      
+//       .containerLeftContent {
+
+//          .titleTextLeft {
+//             font-size: 3rem;
+//          }
+         
+//          .subtitleTextLeft {
+//             font-size: 2rem;
+//          }
+   
+//       }
+//    }
+         
+// }
+
+@media (max-width: 1160px) {
+   
+   .container01 {
+
+         .titleContent {
+            padding-top: 20%;
+
+         }
+   }
+
+   .container02,
+   .container04 {
+
+      .containerRightContent {
+   
+         .titleTextRight {
+            font-size: 2rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 1.5rem;
+         }
+      }
+   }
+   
+   .container03,
+   .container05 {
+      
+      .containerLeftContent {
+
+         .titleTextLeft {
+            font-size: 2rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 1.5rem;
+         }
+   
+      }
+   }
+}
+
+@media (max-width: 1000px) {
+
+   .container01 {
+
+      .titleContent {
+         padding-top: 50%;
+
+      
+         .titleWeb{
+            font-size: 6rem;
+         }
+
+         .subtitleWeb {
+            font-size: 4rem;
+         }
+
+         .arrowDown {
+            width: 400px;
+            margin-top: 10rem;
+         }
+      }
+   }
+   .container02,
+   .container04 {
+
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      
+      .containerRightContent {
+   
+         .titleTextRight {
+            font-size: 3rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 2rem;
+         }
+      }
+   }
+   
+   .container03,
+   .container05 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column-reverse;
+      
+      .containerLeftContent {
+
+         .titleTextLeft {
+            font-size: 3rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 2rem;
+         }
+   
+      }
+   }
+}
+
+@media (max-width: 900px) {
+   .container01 {
+
+      .titleContent {
+         padding-top: 50%;
+
+
+         .titleWeb {
+            font-size: 6rem;
+         }
+
+         .subtitleWeb {
+            font-size: 3rem;
+         }
+
+         .arrowDown {
+            width: 350px;
+            margin-top: 5rem;
+         }
+      }
+
+
+   }
+   .container02,
+   .container04 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      
+      .containerRightContent {
+   
+         .titleTextRight {
+            font-size: 3rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 2.5rem;
+         }
+      }
+   }
+   
+   .container03,
+   .container05 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column-reverse;
+      .containerLeftContent {
+
+         .titleTextLeft {
+            font-size: 3rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 2.5rem;
+         }
+   
+      }
+   }
+}
+
+@media (max-width:670px) {
+   .container00 {
+      min-height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+
+   .container01 {
+
+      .titleContent {
+         padding-top: 30%;
+
+      }
+   }
+
+   .container02{
+      background-image: url(/imagens/homeWebb/Image1.jpg);
+   }
+
+   .container03{
+      background-image: url(/imagens/homeWebb/Image2.jpg);
+   }
+   .container04{
+      background-image: url(/imagens/homeWebb/Image3.jpg);
+   }
+   .container05{
+      background-image: url(/imagens/homeWebb/Image4.jpg);
+   }
+
+   .container02,
+   .container04 {
+
+      .containerRightContent {
+         margin-top: 70%;
+
+         .titleTextRight {
+            font-size: 2.5rem;
+         }
+         .subtitleTextRight {
+            font-size: 1.8rem;
+         }
+      }
+   }
+   
+   .container03,
+   .container05 {
+      .containerLeftContent {
+         margin-top: 70%;
+   
+
+      .titleTextLeft {
+         font-size: 2.5rem;
+
+      }
+
+      .subtitleTextLeft {
+         font-size: 1.8rem;
+
+      }
+      }
+   }
+}
+
+@media (max-width:570px) {
+
+   .container01 {
+      .titleContent {
+         padding-top: 35%;
+
+         .titleWeb {
+            font-size: 3rem;
+         }
+
+         .subtitleWeb {
+            font-size: 2rem;
+         }
+
+         .arrowDown {
+            margin-top: 5rem;
+         }
+
+      }
+   }
+
+   .container02,
+   .container04 {
+
+      .containerRightContent {
+         margin-top: 80%;
+      }
+   }
+   
+   .container03,
+   .container05 {
+      .containerLeftContent {
+         margin-top: 80%;
+   
+      }
+   }
+}
+
+@media (max-width:440px) {
+
+   .container01 {
+      .titleContent {
+         padding-top: 80%;
+
+         .titleWeb {
+            font-size: 2.5rem;
+         }
+
+         .subtitleWeb {
+            font-size: 1.8rem;
+         }
+
+         .arrowDown {
+            width: 250px;
+            margin-top: 4rem;
+         }
+
+      }
+   }
+
+   .container02,
+   .container04 {
+
+      .containerRightContent {
+         margin-top: 120%;
+
+         .titleTextRight {
+            font-size: 1.5rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 1.2rem;
+         }
+         
+      }
+   }
+   
+   .container03,
+   .container05 {
+      .containerLeftContent {
+         margin-top: 120%;
+   
+         .titleTextLeft {
+            font-size: 1.5rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 1.2rem;
+         }
+      }
+   }
+}
+
+@media (max-width:310px)  {
+   .container01 {
+
+      .containerHeader {
+         .titleHeader {
+            font-size: 1.8rem;
+         }
+      }
+      .titleContent {
+         padding-top: 70%;
+
+         .titleWeb {
+            font-size: 2rem;
+         }
+
+         .subtitleWeb {
+            font-size: 1.5rem;
+         }
+
+      .arrowDown {
+         width: 200px;
+      }
+
+      }
+   }
+
+   .container02,
+   .container04 {
+
+      .containerRightContent {
+         margin-top: 160%;
+
+         .titleTextRight {
+            font-size: 1.3rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 1rem;
+         }
+         
+      }
+   }
+   
+   .container03,
+   .container05 {
+      .containerLeftContent {
+         margin-top: 160%;
+   
+         .titleTextLeft {
+            font-size: 1.3rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 1rem;
+         }
+      }
+   }
+}

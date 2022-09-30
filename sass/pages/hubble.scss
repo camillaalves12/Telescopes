@@ -1,0 +1,503 @@
+.container06 {
+   background-image: url(/imagens/homeHubble/BackgroundImage1.jpg);
+
+   .containerHeader {
+      display: flex;
+      align-items: center;
+         .titleHeader {
+            font-size: 2.5rem;
+         }
+         .subtitleHeader {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+         }
+      }
+
+   .titleContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 15%;
+
+      .titleWeb {
+         font-size: 4rem;
+      }
+
+      .subtitleWeb {
+         font-size: 2rem;
+      }
+
+      
+      .arrowDown {
+         display: inline-block;
+         width: 200px;
+         margin-top: 2rem;
+      }
+   }
+
+}
+
+.container07 {
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   .containerRightContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titleTextRight {
+         font-size: 2.5rem;
+      }
+
+   }
+}
+
+.container08 {
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+   
+   .containerLeftContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titleTextLeft {
+         font-size: 2.5rem;
+      }
+      
+
+   }
+}
+
+.container09 {
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   .containerRightContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titleTextRight {
+         font-size: 2.5rem;
+      }
+      
+
+   }
+}
+
+.container10 {
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+   
+   .containerLeftContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titleTextLeft {
+         font-size: 2.5rem;
+      }
+      
+
+   }
+}
+
+@media (max-width: 1160px) {
+   
+   .container06 {
+
+         .titleContent {
+            padding-top: 20%;
+
+         }
+   }
+
+   .container07,
+   .container09 {
+
+      .containerRightContent {
+   
+         .titleTextRight {
+            font-size: 2rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 1.5rem;
+         }
+      }
+   }
+   
+   .container08,
+   .container10 {
+      
+      .containerLeftContent {
+
+         .titleTextLeft {
+            font-size: 2rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 1.5rem;
+         }
+   
+      }
+   }
+}
+
+@media (max-width: 1000px) {
+
+   .container06 {
+
+      .titleContent {
+         padding-top: 50%;
+
+      
+         .titleWeb{
+            font-size: 6rem;
+         }
+
+         .subtitleWeb {
+            font-size: 4rem;
+         }
+
+         .arrowDown {
+            width: 400px;
+            margin-top: 10rem;
+         }
+      }
+   }
+   .container07,
+   .container09 {
+
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      
+      .containerRightContent {
+   
+         .titleTextRight {
+            font-size: 3rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 2rem;
+         }
+      }
+   }
+   
+   .container08,
+   .container10 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column-reverse;
+      
+      .containerLeftContent {
+
+         .titleTextLeft {
+            font-size: 3rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 2rem;
+         }
+   
+      }
+   }
+}
+
+@media (max-width: 900px) {
+   .container06 {
+
+      .titleContent {
+         padding-top: 50%;
+
+
+         .titleWeb {
+            font-size: 6rem;
+         }
+
+         .subtitleWeb {
+            font-size: 3rem;
+         }
+
+         .arrowDown {
+            width: 350px;
+            margin-top: 5rem;
+         }
+      }
+
+
+   }
+   .container07,
+   .container09 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      
+      .containerRightContent {
+   
+         .titleTextRight {
+            font-size: 3rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 2.5rem;
+         }
+      }
+   }
+
+   .container08,
+   .container10 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column-reverse;
+      .containerLeftContent {
+
+         .titleTextLeft {
+            font-size: 3rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 2.5rem;
+         }
+   
+      }
+   }
+}
+
+@media (max-width:670px) {
+   .container00 {
+      min-height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+
+   .container06 {
+
+      .titleContent {
+         padding-top: 30%;
+
+      }
+   }
+
+   .container07{
+      background-image: url(/imagens/homeHubble/Image1.jpg);
+   }
+
+   .container08{
+      background-image: url(/imagens/homeHubble/Image2.png);
+   }
+   .container09{
+      background-image: url(/imagens/homeHubble/Image3.jpg);
+   }
+   .container10{
+      background-image: url(/imagens/homeHubble/Image4.jpg);
+   }
+
+   .container07,
+   .container09 {
+
+      .containerRightContent {
+         margin-top: 70%;
+
+         .titleTextRight {
+            font-size: 2.5rem;
+         }
+         .subtitleTextRight {
+            font-size: 1.8rem;
+         }
+      }
+   }
+   
+   .container08,
+   .container10 {
+      .containerLeftContent {
+         margin-top: 70%;
+   
+
+      .titleTextLeft {
+         font-size: 2.5rem;
+
+      }
+
+      .subtitleTextLeft {
+         font-size: 1.8rem;
+
+      }
+      }
+   }
+}
+
+@media (max-width:570px) {
+
+   .container06 {
+      .titleContent {
+         padding-top: 35%;
+
+         .titleWeb {
+            font-size: 3rem;
+         }
+
+         .subtitleWeb {
+            font-size: 2rem;
+         }
+
+         .arrowDown {
+            margin-top: 5rem;
+         }
+
+      }
+   }
+
+   .container07,
+   .container09 {
+
+      .containerRightContent {
+         margin-top: 80%;
+      }
+   }
+   
+   .container08,
+   .container10{
+      .containerLeftContent {
+         margin-top: 80%;
+   
+      }
+   }
+}
+
+@media (max-width:440px) {
+
+   .container06 {
+      .titleContent {
+         padding-top: 80%;
+
+         .titleWeb {
+            font-size: 2.5rem;
+         }
+
+         .subtitleWeb {
+            font-size: 1.8rem;
+         }
+
+         .arrowDown {
+            width: 250px;
+            margin-top: 4rem;
+         }
+
+      }
+   }
+
+   .container07,
+   .container09 {
+
+      .containerRightContent {
+         margin-top: 120%;
+
+         .titleTextRight {
+            font-size: 1.5rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 1.2rem;
+         }
+         
+      }
+   }
+
+   .container08,
+   .container10 {
+      .containerLeftContent {
+         margin-top: 120%;
+   
+         .titleTextLeft {
+            font-size: 1.5rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 1.2rem;
+         }
+      }
+   }
+}
+
+@media (max-width:310px)  {
+   .container06 {
+
+      .containerHeader {
+         .titleHeader {
+            font-size: 1.8rem;
+         }
+      }
+      .titleContent {
+         padding-top: 70%;
+
+         .titleWeb {
+            font-size: 2rem;
+         }
+
+         .subtitleWeb {
+            font-size: 1.5rem;
+         }
+
+      .arrowDown {
+         width: 200px;
+      }
+
+      }
+   }
+
+   .container07,
+   .container09 {
+
+      .containerRightContent {
+         margin-top: 160%;
+
+         .titleTextRight {
+            font-size: 1.3rem;
+         }
+
+         .subtitleTextRight {
+            font-size: 1rem;
+         }
+         
+      }
+   }
+   
+   .container08,
+   .container10 {
+      .containerLeftContent {
+         margin-top: 160%;
+   
+         .titleTextLeft {
+            font-size: 1.3rem;
+         }
+         
+         .subtitleTextLeft {
+            font-size: 1rem;
+         }
+      }
+   }
+}
